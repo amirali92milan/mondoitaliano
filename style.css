@@ -1,0 +1,332 @@
+
+
+body{
+  
+    background-color: #3D0301;
+   
+}
+.fontmenu{
+    font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fontbrand{
+    font-family: "Waterfall", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo{
+    width: 80px;
+    height: 50px;
+}
+.nav-link{
+    color:#ECDCBF ;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.fontitem{
+    font-family: "Waterfall", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.fontprice{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"width" 100;
+}
+
+
+
+
+@media screen and (min-width: 767px) {
+    .fasele{
+       
+        margin-top: 5rem;
+    }
+  
+    .divitem{
+        width: 99.9%;
+        margin-bottom: 0.625rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 29.688rem;
+        background-color: rgb(255, 255, 255 ,0.1);
+    }
+    .divimage{
+        
+        grid-area:1/1/5/3 ;
+        background-image: url(./img/KATE-THE-ICONIC-PUMP-PHOTO-FULL-WIDTH-1.jpg);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .divimage2{
+        grid-area:1/6/3/7 ;
+        background-image: url(./img/4.jpg);
+        width:100%;
+        background-position: top;
+        background-size: cover;
+        background-color: white;
+        
+        
+       
+    }
+    .divimage3{
+        grid-area:3/5/5/7 ;
+        background-image: url(./img/2.jpg);
+        width:100%;
+        background-position: bottom;
+        background-size: cover;
+
+    }
+    .divimage4{
+        grid-area:1/5/3/6 ;
+        background-image: url(./img/3.jpg);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+       
+
+    }
+    .divlouboutin{
+        grid-area: 1/3/3/5;
+        display: flex;
+        text-align: center;
+        align-items:top;
+        color: #ECDCBF;
+        justify-content: center;
+        margin-top: 0.188rem;
+        font-size: 65px;
+    }
+    .pricelouboutin{
+        grid-area: 3/3/4/5;
+        color: #ECDCBF;
+        margin-left: 1.875rem;
+        margin-top: 1.875rem;
+    }
+    .btnbag{
+        background-color: #3D0301;
+        color: #ECDCBF;
+        border-radius: 0.625rem;
+        border-color: #ECDCBF;
+        margin-left: 1.25rem;
+        width: 7.5rem;
+        height: 2.188rem;  
+        margin-top: 1.875rem;
+    }
+  
+       
+    
+    .lvbase{
+        grid-area:1/5/5/7 ;
+        background-image: url(./img/LV/b.png.avif);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .lv{
+        grid-area:1/1/3/2 ;
+        background-image: url(./img//LV/1.png.avif);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+        background-color: beige;
+
+    }
+    .lv3{
+        grid-area:3/1/5/3 ;
+        background-image: url(./img/LV/2.png.avif);
+        width:100%;
+        background-position: bottom;
+        background-size: cover;
+        background-color: beige;
+
+    }
+    .lv4{
+        grid-area:1/2/3/3 ;
+        background-image: url(./img/LV/3.png.avif);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+        background-color: beige;
+
+    }
+    .pricelv{
+        grid-area: 3/4/4/6;
+        color: #ECDCBF;
+        margin-left: 1.875rem;
+        margin-top: 1.875rem;
+
+    }
+    .ysl1{
+        grid-area:1/1/5/3 ;
+        background-image: url(./img/ysl/B.jpg.avif);
+        width:100%;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .ysl2{
+        grid-area:1/6/3/7 ;
+        background-image: url(./img/ysl/2.jpg.avif);
+        width:100%;
+        background-position: bottom;
+        background-size: cover;
+        
+        
+
+    }
+    .ysl3{
+        grid-area:3/5/5/7 ;
+        background-image: url(./img/ysl/3.jpg.avif);
+        width:100%;
+        background-position: bottom;
+        background-size: cover;
+
+    }
+    .ysl4{
+        grid-area:1/5/3/6 ;
+        background-image: url(./img/ysl/4.jpg.avif);
+        width:100%;
+        background-position: bottom;
+        background-size: cover;
+
+    }
+    .textb{
+        display: flex;
+        background-color: #901E3E;
+        color: #F0BB78;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.313rem;
+        width: 99,8%;
+        height: 3.125rem;
+    }
+    
+  }
+
+  
+  @media screen and (max-width:767px) and (min-width:320px) {
+    .faselep{
+        margin-top:5rem;
+    }
+    .divkol{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 5rem 1fr 1fr;
+        width: 99.8%;
+        height: 40rem;
+        background-color:#33030D ;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .lbphonetext{
+        display: flex;
+        grid-area: 1/2/2/4;
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .divitem>*{
+        color: #ECDCBF;
+    }
+    
+    .lb1p{
+        background-image: url(./img/KATE-THE-ICONIC-PUMP-PHOTO-FULL-WIDTH-1.jpg);
+        width: 99%;
+        grid-area: 2/1/4/3;
+        background-position: bottom;
+        background-size: cover;
+       
+    }
+    
+    .lb3p{
+        background-image: url(./img/4.jpg);
+        width: 99%;
+        grid-area: 2/3/3/5;
+        background-position: center;
+        background-size:cover;
+        
+    }
+    .prlb{
+        display: grid;
+        grid-area: 3/3/4/5;
+        place-items: center;
+        margin: 2rem;
+        
+       
+    }
+    .pricephone{
+        background-color: #3D0301;
+        color: #ECDCBF;
+        border-radius: 0.625rem;
+        border-color: #ECDCBF;
+        margin-left: 1.25rem;
+        width: 9rem;
+        height: 3.2rem;  
+        margin-top: 1.875rem;
+        
+
+    }
+
+    .lv1p{
+       background-image: url(./img/LV/b.png.avif);
+       width: 99%;
+       grid-area: 2/3/4/5;
+       background-size: cover;
+       background-position: center;
+    }
+    
+    
+    .lv3p{
+        background-image: url(./img/LV/2.png.avif);
+        width: 99%;
+        grid-area: 2/1/3/3;
+        background-size: cover;
+        background-position: center;
+        background-color: #ECDCBF;
+    }
+    .prlv{
+        display: grid;
+        grid-area: 3/1/4/3;
+        place-items: center;
+        margin: 2rem;
+    }
+
+    .yslp1{
+        background-image: url(./img/ysl/B.jpg.avif);
+        width: 98%;
+        grid-area: 2/1/4/3;
+        background-position: center;
+        background-size: cover;
+    }
+    .yslp2{
+        background-image: url(./img/ysl/2.jpg.avif);
+        background-size: cover;
+        background-position: bottom;
+        grid-area: 2/3/3/5;
+        width: 98%;
+    }
+    .textbp{
+        background-color: #901E3E;
+        color: #F0BB78;
+        width: 98.8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+  
+
+  
